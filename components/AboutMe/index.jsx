@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <div className="py-24 px-24 bg-gray-800">
+        <div className="sm:p-12 md:p-18 lg:24 bg-gray-800">
             <div className="flex xl:flex-row flex-col w-full shadow-lg bg-white">
                 {/* Picture */}
                 <div className="xl:w-1/2 h-[16em] md:h-[24em] lg:h-[32em] overflow-hidden">

@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="sticky top-0">
 
-        <div className="flex w-full bg-[#222222] font-iceland px-24">
+        <div className="flex w-full bg-[#222222] font-iceland sm:px-12 md:px-16 lg:px-24">
             <span className="text-white text-5xl">
                 Colin Maloney
             </span>

@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <div id="Projects" className="bg-black font-iceland text-white">
             <WhiteSeperator />
-            <div className="px-24 py-12 pb-24">
+            <div className="sm:px-12 md:px-18 lg:px-24 sm:py-6 lg:py-12 lg:pb-24">
                 <div className="flex flex-col">
                     <span className="text-5xl">
                         Projects
