@@ -12,7 +12,7 @@ const Navbar = () => {
                 Colin Maloney
             </span>
             <div className="flex items-center justify-end w-full">
-                <div className="text-center grid grid-cols-4 gap-32 text-white text-5xl">
+                <div className="text-center grid md:grid-cols-4 md:gap-32 text-white text-xl md:text-2xl lg:text-4xl xl:text-5xl">
                     <span />
                         <NavItem name="About Me" hashName="AboutMe"/>
 

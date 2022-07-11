@@ -1,16 +1,14 @@
-import { WhiteSeperator } from "../seperators";
-
 const AboutMe = () => {
     return (
-        <div id="AboutMe" className="py-28 px-24">
-            <div className="flex w-full shadow-lg">
+        <div className="py-24 px-24 bg-gray-800">
+            <div className="flex xl:flex-row flex-col w-full shadow-lg bg-white">
                 {/* Picture */}
-                <div className="w-1/2 h-[32em] bg-red-900 overflow-hidden">
-                    <img width="100%" src="/faceshot.jpg" alt="Picture of Colin Maloney"/>
+                <div className="xl:w-1/2 h-[16em] md:h-[24em] lg:h-[32em] overflow-hidden">
+                    <img width="100%" src="/faceshot.jpg" alt="Picture of Colin Maloney" />
                 </div>
                 {/*Picture End */}
 
-                <div className="flex flex-col gap-0 w-1/2 px-12 py-8 font-iceland">
+                <div className="flex flex-col gap-0 xl:w-1/2 px-4 lg:px-12 py-8 font-iceland">
                     <span className="text-5xl">
                         About Me
                     </span>
