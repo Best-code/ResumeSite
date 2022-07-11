@@ -14,17 +14,13 @@ const Navbar = () => {
             <div className="flex items-center justify-end w-full">
                 <div className="text-center grid grid-cols-4 gap-32 text-white text-5xl">
                     <span />
-                        <NavItem name="About Me" hashName="AboutMe">
-                        About Me
-                        </NavItem>
+                        <NavItem name="About Me" hashName="AboutMe"/>
 
-                    <a href="/#Projects">
-                        Projects
-                    </a>
+                    <NavItem name="Projects" hashName="Projects"/>
 
-                    <span>
+                    <a href="mailto:colincpm@hotmail.com">
                         Contact Me
-                    </span>
+                    </a>
                 </div>
             </div>
         </div>
