@@ -2,7 +2,7 @@ import { WhiteSeperator } from "../seperators";
 
 const AboutMe = () => {
     return (
-        <div className="py-28 px-24">
+        <div id="AboutMe" className="py-28 px-24">
             <div className="flex w-full shadow-lg">
                 {/* Picture */}
                 <div className="w-1/2 h-[32em] bg-red-900 overflow-hidden">

@@ -2,7 +2,7 @@ import { WhiteSeperator } from "../seperators"
 import ViewComponent from "../ProjectViewComponent";
 const Projects = () => {
     return (
-        <div className="bg-black font-iceland text-white">
+        <div id="Projects" className="bg-black font-iceland text-white">
             <WhiteSeperator />
             <div className="px-24 py-12">
                 <div className="flex flex-col">
@@ -19,7 +19,7 @@ const Projects = () => {
                             site can be found " descLink="https://kilpatrickscience.com" 
                             linkName="here" afterLink=""/>
 
-                        <ViewComponent name="Github" description="I have been a developer on
+                        <ViewComponent img="" name="Github" description="I have been a developer on
                          Github for many years and would love to share my many 
                         repositories created over the years." link="https://github.com/best-code" beforeLink="Check out my github" descLink="https://github.com/best-code" linkName="here." afterLink=""/>
                     </div>

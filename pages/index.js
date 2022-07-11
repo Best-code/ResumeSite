@@ -13,15 +13,10 @@ export default function Home() {
         <meta name="description" content="Personal Resume website for Colin Maloney" />
         <link rel="icon" href="/laptop.ico" />
 
-      {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet" />
-      {/* Google Fonts End */}
 
       </Head>
       <Navbar />
-      <AboutMe id="About Me"/>
+      <AboutMe/>
       <Projects/>
     </div>
   )
