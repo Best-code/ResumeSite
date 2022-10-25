@@ -16,7 +16,6 @@ export default function Home() {
 
       </Head>
       <Navbar />
-      <div id="AboutMe"/>
       <AboutMe/>
       <Projects/>
     </div>

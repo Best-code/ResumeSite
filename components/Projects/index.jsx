@@ -19,9 +19,20 @@ const Projects = () => {
                             site can be found " descLink="https://kilpatrickscience.com" 
                             linkName="here" afterLink="."/>
 
-                        <ViewComponent img="/functionCode.png" name="Github" description="I have been a developer on
+                        <ViewComponent img="/GitHub-logo.jpg" name="Github" description="I have been a developer on
                          Github for many years and would love to share my many 
-                        repositories created over the years." link="https://github.com/best-code" beforeLink="Check out my github" descLink="https://github.com/best-code" linkName="here" afterLink="."/>
+                        repositories created over the years." link="https://github.com/best-code" 
+                        beforeLink="Check out my github" descLink="https://github.com/best-code" 
+                        linkName="here" afterLink="."/>
+
+                        <ViewComponent img="/Substack.jpg" name="Newsletter" 
+                        description="With the help of Substack, I have started a newsletter. My articles are focused on helping myself become a better writer, and helping the reader to become a better person." 
+                        link="https://colinmaloney.substack.com" beforeLink="Check out my Substack"
+                         descLink="https://colinmaloney.substack.com" linkName="here" afterLink="."/>
+
+                        <ViewComponent img="/faceshot.jpg" name="Resume" description="I invite you to look at my Software Engineer / Data Scientist resume" link="/ColinMaloneyF2022ResumeV7.pdf" beforeLink="Check out my resume" descLink="/ColinMaloneyF2022ResumeV7.pdf" linkName="here" afterLink="."/>
+
+
                     </div>
                 </div>
             </div>

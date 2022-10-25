@@ -14,10 +14,8 @@ const ViewComponent = (props) => {
         <div className="flex flex-col bg-gray-700">
             <a href={props.link}>
                 {/*Picture Here*/}
-                <div className="w-full bg-red-900">
-                    {/*<Image src={props.img} width={660} height={436} layout={"intrinsic"} />*/}
-                    <img src={props.img} height="0" />
-                </div>
+                    <Image src={props.img} width={660} height={436} layout={"intrinsic"} />
+                    {/*<img src={props.img} height="0" />*/}
             </a>
             <div className="p-12 flex flex-col">
                 <span className="text-4xl">

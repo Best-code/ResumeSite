@@ -18,7 +18,7 @@ const Navbar = () => {
 
                     <NavItem name="Projects" hashName="Projects"/>
 
-                    <a href="mailto:colincpm@hotmail.com">
+                    <a href="mailto:colincpm@hotmail.com?subject=Contact me: Resume Site">
                         Contact Me
                     </a>
                 </div>
