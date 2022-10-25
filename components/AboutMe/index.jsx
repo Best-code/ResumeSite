@@ -1,6 +1,7 @@
 const AboutMe = () => {
     return (
-        <div className="sm:p-12 md:p-18 lg:24 bg-gray-800">
+        <div id="AboutMe" className="sm:pt-12 md:pt-18 lg:pt-24 bg-gray-800">
+        <div className="sm:pb-12 sm:px-12 md:pb-18 md:px-18 lg:pb-20 lg:px-20 bg-gray-800">
             <div className="flex xl:flex-row flex-col w-full shadow-lg bg-white">
                 {/* Picture */}
                 <div className="xl:w-1/2 h-[16em] md:h-[24em] lg:h-[32em] overflow-hidden">
@@ -26,6 +27,7 @@ const AboutMe = () => {
                 </div>
             </div>
         </div>
+     //   </div>
     )
 }
 

@@ -5,7 +5,7 @@ const NavItem = (props) => {
     }
 
     return (
-        <div className="hover:shadow-lg hover:bg-red-900" onClick={() => {
+        <div onClick={() => {
             hash(props.hashName);
         }}>
             {props.name}
