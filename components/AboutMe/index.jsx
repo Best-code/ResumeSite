@@ -13,7 +13,7 @@ const AboutMe = () => {
                     </div>
                     {/*Picture End */}
 
-                    <div className="flex flex-col gap-0 w-1/2 px-4 py-8 font-iceland">
+                    <div className="flex flex-col gap-0 w-fit xl:w-1/2 px-4 py-8 font-iceland">
                         <span className="text-5xl">
                             About Me
                         </span>
